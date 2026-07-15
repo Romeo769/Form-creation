@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+
+    padding: 0px;
+}
+h1{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.icons i {
+    color:purple;
+}
+.icons input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.icons{
+    display: flex;
+    
+    padding: 10px;
+    margin-top: 20px;
+    width: 180px;
+    gap: 10px;
+    box-shadow: 1px 1px 20px rgb(206, 204, 204);
+    border-radius: 20px;
+}
+
+.checkbox label{
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.createaccount{
+    border: none;
+    border-width: 20px;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 15px;
+    background-color: purple;
+    height: 40px;
+    color: aliceblue;
+}
+.checkbox {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.hello {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.dash {
+ background: linear-gradient(90deg, #d42ff8 0%, #c522ef 50%, #b516ef 100%);   
+ width: 300px;
+ border-radius: 20px;
+ height: 400px;
+ padding-top: 50px;
+ padding-left: 20px;
+ padding-right: 20px;
+ text-align: justify;
+ color: aliceblue;
+
+}
+
+.dash p {
+font-size: 14px;
+    line-height: 17px;
+    padding-top: 15px;
+    color: rgb(212, 217, 222);
+}
+.leanux{
+    width: 120px;
+    border-radius: 20px;
+    background-color: transparent;
+   border: 1px solid white;
+    height: 40px;
+    margin-top: 20px;
+}
+.up{
+display: flex;
+padding-top: 120px;
+padding-left: 120px;
+justify-content: center;
+}
