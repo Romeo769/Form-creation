@@ -52,6 +52,8 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     font-weight: lighter;
+    padding-top: 70px;
+    height: 30px;
 }
 
 .dash {
@@ -83,7 +85,18 @@ font-size: 14px;
 }
 .up{
 display: flex;
-padding-top: 120px;
-padding-left: 120px;
+
+width: 600px ;
 justify-content: center;
+gap: 50px;
+box-shadow: 2px 2px 20px rgb(177, 173, 173);
+border-radius: 20px;
+padding-left:20px ;
+}
+form{
+    padding-top: 50px;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
 }
