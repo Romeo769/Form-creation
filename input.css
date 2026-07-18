@@ -87,6 +87,7 @@ font-size: 14px;
 display: flex;
 
 width: 600px ;
+padding-left: 600px;
 justify-content: center;
 gap: 50px;
 box-shadow: 2px 2px 20px rgb(177, 173, 173);
@@ -99,4 +100,39 @@ form{
 .wrap {
     display: flex;
     justify-content: center;
+}
+@media( max-width: 400px) {
+    .up{
+        display: block;
+        padding-left: 0px;
+        width: 350px;
+
+    }
+    h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .icons{
+        width: 260px;
+    }
+    .regroup{
+        display: flex;
+        justify-content: center;
+    }
+    .checkbox {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .createaccount1{
+        display: flex;
+        justify-content: center;
+    }
+    .createaccount{
+        width: 250px;
+        margin-bottom: 30px;
+    }
+    .dash {
+        width: 310px;
+    }
 }
