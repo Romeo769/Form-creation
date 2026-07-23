@@ -136,3 +136,110 @@ form{
         width: 310px;
     }
 }
+@media(min-width: 401px) and (max-width: 470px) {
+ .up{
+        display: block;
+        padding-left: 0px;
+        width: 370px;
+
+    }
+    h1{
+        text-align: center;
+        font-size: 27px;
+    }
+    .icons{
+        width: 290px;
+    }
+    .regroup{
+        display: flex;
+        justify-content: center;
+    }
+    .checkbox {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .createaccount1{
+        display: flex;
+        justify-content: center;
+    }
+    .createaccount{
+        width: 270px;
+        margin-bottom: 30px;
+    }
+    .dash {
+        width: 330px;
+    }
+}
+
+@media(min-width: 401px) and (max-width: 470px) {
+ .up{
+        display: block;
+        padding-left: 0px;
+        width: 390px;
+
+    }
+    h1{
+        text-align: center;
+        font-size: 27px;
+    }
+    .icons{
+        width: 290px;
+    }
+    .regroup{
+        display: flex;
+        justify-content: center;
+    }
+    .checkbox {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .createaccount1{
+        display: flex;
+        justify-content: center;
+    }
+    .createaccount{
+        width: 270px;
+        margin-bottom: 30px;
+    }
+    .dash {
+        width: 350px;
+    }
+}
+
+@media(min-width: 471px) and (max-width: 580px) {
+ .up{
+        display: block;
+        padding-left: 0px;
+        width: 420px;
+
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .icons{
+        width: 320px;
+    }
+    .regroup{
+        display: flex;
+        justify-content: center;
+    }
+    .checkbox {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .createaccount1{
+        display: flex;
+        justify-content: center;
+    }
+    .createaccount{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .dash {
+        width: 380px;
+    }
+}
